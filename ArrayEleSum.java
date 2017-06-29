@@ -15,7 +15,7 @@ public class ArrayEleSum {
 		int c=0;
 		for(int i=0;i<n;i++){
 			for(int j=1;j<n;j++){
-				if((arr[i]+arr[j])==s){
+				if(((arr[i]+arr[j])==s)&&(c==0)){
 					System.out.println(arr[i]+" "+arr[j]);
 					c++;
 				}
